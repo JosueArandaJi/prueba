@@ -7,7 +7,7 @@ function moverPositionRandom(elm){
 
 let btnSi = document.getElementById("btn_si");
 let btnNo = document.getElementById("btn_no");
-let divModoSexo = document.getElementsByClassName("modo_sexo")[0];
+let divModoSexo = document.getElementsByClassName("modo_romance")[0];
 
 btnNo.addEventListener('mouseenter' , function(e) {moverPositionRandom(e.target)});
 
