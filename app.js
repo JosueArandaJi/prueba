@@ -7,14 +7,14 @@ function moverPositionRandom(elm){
 
 let btnSi = document.getElementById("btn_si");
 let btnNo = document.getElementById("btn_no");
-let divModoSexo = document.getElementsByClassName("modo_romance")[0];
+let divModoRomance = document.getElementsByClassName("modo_romance")[0];
 
 btnNo.addEventListener('mouseenter' , function(e) {moverPositionRandom(e.target)});
 
 btnSi.addEventListener('click' , function(e){
     alert('Sabía que dirías que SÍ. Casémonos ya y tengamos hijos. TE AMO!!! ❤')
 
-    divModoSexo.style.display = 'block';
+    divModoRomance.style.display = 'block';
     const cancion = new Audio('img\\img_modo_hot.mp3');
     cancion.play();
 });
